@@ -1,5 +1,5 @@
-import { createGlobalStyle } from "styled-components";
-import { DEVICE_BREAKPOINTS } from "./deviceBreakpoints";
+import { createGlobalStyle } from 'styled-components'
+import { DEVICE_BREAKPOINTS } from './deviceBreakpoints'
 
 export default createGlobalStyle`
   * {
@@ -54,4 +54,4 @@ export default createGlobalStyle`
   ::-webkit-scrollbar-thumb {
     background-color: #09090A;
   }
-`;
+`

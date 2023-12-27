@@ -6,7 +6,7 @@ export const Container = styled.button`
   color: ${({ theme }) => theme.COLORS.BLUE_600};
 
   border: 0;
-  height: 3.5rem;
+  height: 3rem;
   padding: 0 1rem;
   font-weight: 500;
   border-radius: 0.43rem;
@@ -14,14 +14,14 @@ export const Container = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 5px;
+  gap: 0.31rem;
 
   > span {
     font-size: 1rem;
   }
 
   > svg {
-    font-size: 1.37rem;
+    font-size: 1.3rem;
   }
 
   @media (max-width: ${DEVICE_BREAKPOINTS.XS}) {

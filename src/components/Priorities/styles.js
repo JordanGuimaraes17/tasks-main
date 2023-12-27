@@ -1,9 +1,9 @@
-import styled from "styled-components";
-import { DEVICE_BREAKPOINTS } from "../../styles/deviceBreakpoints";
+import styled from 'styled-components'
+import { DEVICE_BREAKPOINTS } from '../../styles/deviceBreakpoints'
 
 export const Container = styled.section`
   padding: 2rem;
-`;
+`
 
 export const Header = styled.header`
   display: flex;
@@ -15,13 +15,13 @@ export const Header = styled.header`
     color: ${({ theme }) => theme.COLORS.RED_200};
     display: flex;
     align-items: center;
-    gap: 7px;
+    gap: 0.43rem;
   }
 
   > small {
     color: ${({ theme }) => theme.COLORS.GRAY_200};
   }
-`;
+`
 
 export const Tasks = styled.div`
   border: 1px dashed ${({ theme }) => theme.COLORS.RED_200};
@@ -38,4 +38,4 @@ export const Tasks = styled.div`
     justify-content: center;
     align-items: center;
   }
-`;
+`
