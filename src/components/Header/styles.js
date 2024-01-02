@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { DEVICE_BREAKPOINTS } from "../../styles/deviceBreakpoints";
+import styled from 'styled-components'
+import { DEVICE_BREAKPOINTS } from '../../styles/deviceBreakpoints'
 
 export const Container = styled.header`
   display: flex;
@@ -23,7 +23,7 @@ export const Container = styled.header`
       padding: 0 1rem;
     }
   }
-`;
+`
 
 export const Menu = styled.button`
   background: none;
@@ -44,4 +44,4 @@ export const Menu = styled.button`
       font-size: 2rem;
     }
   }
-`;
+`
